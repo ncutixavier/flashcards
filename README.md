@@ -17,10 +17,7 @@ The app's state is totally normalized, with slices for topics, quizzes, and card
 
 # To Test
 
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
-
-# Questions
-
-Is this appropriately scoped? Does it have too many features? Too few?
+1. Open [flashcards website](https://flashcards-ncuti.netlify.app/)
+2. Create topics
+3. Create quizzes
+4. Visit the page for an individual quiz and flip the cards over
