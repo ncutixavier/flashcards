@@ -8,11 +8,8 @@ export const quizzesSlice = createSlice({
     },
     reducers: {
         addQuiz: (state, action) => {
-            const { id, name } = action.payload
-            state.quizzes[id] = {
-                id: id,
-                name: name
-            }
+            const { id } = action.payload
+            state.quizzes[id] = action.payload
         }
     }
 })

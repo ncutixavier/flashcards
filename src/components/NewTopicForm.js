@@ -27,7 +27,6 @@ export default function NewTopicForm() {
     // dispatch your add topic action here
     dispatch(addTopic(data))
     history.push(ROUTES.topicsRoute());
-    console.log("TOPIC::", data)
   };
 
   return (
